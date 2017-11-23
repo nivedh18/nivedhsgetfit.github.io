@@ -6,16 +6,12 @@
 </style>
 <body bgcolor="#000000" >
 
-<font color="#CCCCCC" face="Comic Sans MS, cursive"><h2 class="centered" >My Design Samples</h2></font> 
+<font color="#CCCCCC"><h2 class="w3-center" >My Project Samples</h2></font> 
 
-<div class="w3-content w3-section "  >
-  <p><img class="mySlid" src="home.jpg" style="height:100%;width=100%">
-    <img class="mySlid" src="login.jpg" style="height:100%">
-  <img class="mySlid" src="nivuser.jpg" style="height:100%">
-  <img class="mySlid" src="nivfestlogo.jpg" style="height:100%">
-  <img class="mySlid" src="nivfestPOSTER.jpg" style="height:100%">
-  <img class="mySlid" src="nivkamtlabel.jpg" style="width:100%"> 
-  <img class="mySlid" src="nivkamtlabel1.jpg" style="width:100%">  </p>
+<div class="w3-content w3-section" style="max-width:100%">
+  <img class="mySlid" src="home.jpg" style="width:100%">
+  <img class="mySlid" src="login.jpg" style="width:100%">
+  <img class="mySlid" src="nivuser.jpg" style="width:100%">
 </div>
 
 <script>
@@ -31,9 +27,8 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2200);
+    setTimeout(carousel, 2000);
 }
-    </script>
+</script>
 </body>
 </html>
-
